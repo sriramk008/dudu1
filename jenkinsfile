@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_REPO = 'sriramk008/con1'
-        DOCKER_HUB_CREDENTIALS = 'dockerimg'
+        DOCKER_HUB_CREDENTIALS = 'dockerrepository'
     }
 
     stages {
